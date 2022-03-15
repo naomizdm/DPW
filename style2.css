@@ -1,0 +1,42 @@
+body{
+  padding: 0px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    margin: 0px;
+}
+.menuNav{
+  position: relative;
+  overflow: hidden;
+}
+.menuNav a{
+  float: left;
+  color: rgb(34, 35, 36);
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+.menuNav a:hover{
+  background-color: #ddd;
+  color: rgb(0, 4, 7);
+}
+.menuNav a.active{
+  background-color: rgb(176, 134, 211);
+  color: aliceblue;
+}
+.logo{
+  width:70px;
+  cursor:pointer;
+  object-position: 0%;
+  float: left;
+}
+  h3{
+  text-align: center;
+
+}
+table, th, td {
+  border: 2px, solid;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+
+}
